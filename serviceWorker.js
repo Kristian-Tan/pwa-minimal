@@ -9,7 +9,6 @@ var files = [
     './app.js',
     './manifest.json',
     './images/icon_192.png',
-    './images/icon_512.png',
 ];
 
 
