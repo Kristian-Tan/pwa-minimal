@@ -3,11 +3,11 @@
   "short_name": "PWA Min Demo",
   "start_url": "./index.html",
   "icons": [  
-        {
+    {
       "src": "./icon_192.png",
       "type": "image/png",
       "sizes": "192x192",
-            "purpose": "any maskable"
+      "purpose": "any maskable"
     },
     {
       "src": "./icon_512.png",
