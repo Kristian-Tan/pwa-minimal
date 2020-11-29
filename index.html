@@ -9,8 +9,10 @@
     <!-- REMOVABLES 1 START: make a button to install pwa -->
     <button id="buttonInstall">install</button>
     <script>
+    buttonInstall.hidden = true; // hide the install button when not ready
     let installPrompt;
     window.addEventListener('beforeinstallprompt', (e) => {
+      buttonInstall.hidden = false; // show the install button when ready
       e.preventDefault(); // prevent the mini-infobar (the "add to home screen" popup/prompt on the bottom of page) from appearing on mobile
       installPrompt = e; // save the event so it can be triggered later.
     });
@@ -23,7 +25,7 @@
     });
     </script>
     <!-- REMOVABLES 1 END  -->
-    
+
 </body>
 
 </html>

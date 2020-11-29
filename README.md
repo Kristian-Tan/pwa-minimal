@@ -13,7 +13,7 @@ this section list the reason why each file exist in this minimal example (since 
 - app.js = must be made separate with index.html, called with 'defer' so that only after html page finished loading that this script is executed, contain service worker registration
 - manifest.json = mandatory web manifest (only contain minimal properties/keys needed to be installable)
 - serviceWorker.js = mandatory service worker
-- image logo 192px and 512px = according to https://web.dev/add-manifest/ PWA (for chrome desktop) must contain 192px and 512px icon
+- image logo 192px and 512px = according to https://web.dev/add-manifest/ PWA (for chrome desktop) must contain 192px and 512px icon, also read https://web.dev/installable-manifest/
 
 ## Removables
 - this repository also contain small inlined demo for useful features that might be wanted in a PWA
