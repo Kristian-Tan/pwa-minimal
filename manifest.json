@@ -1,6 +1,9 @@
 {
   "name": "PWA Minimal Demo",
   "short_name": "PWA Min Demo",
+  "description": "PWA minimal demo with no features",
+  "display": "standalone",
+  "orientation": "portrait",
   "start_url": "./index.html",
   "icons": [  
     {
